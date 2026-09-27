@@ -1,0 +1,17 @@
+{
+  "network": "testnet-bradbury",
+  "chainId": 4221,
+  "sender": "0x4604a582B66431481D5320fed67C785bdb4D7Fe0",
+  "sdk": "genlayer-js@1.1.8",
+  "project": "incident-quorum",
+  "source": "contract.py",
+  "sourceSha256": "7208fb45ffd4477f1c253cd7b64fdecd2b0156fc15116a33c165d2a9453f0d3e",
+  "txId": "0xe393f62120dad96ea0debfbb1a6abd38fa5a3616dcee24283e813ba28b09696f",
+  "observedStatus": "ACCEPTED",
+  "observedAt": "2026-09-27T16:19:06.308Z",
+  "executionResult": "FINISHED_WITH_RETURN",
+  "recipient": "0x578C7d281BAFFa436D2a2321834542b283622f2a",
+  "evidence": "consensus-record-and-matching-source",
+  "finalityVerified": false,
+  "note": "Transaction existence was verified. Successful deployment and finality are not asserted."
+}

@@ -1,0 +1,93 @@
+{
+  "ctor": {
+    "kwparams": {},
+    "params": []
+  },
+  "methods": {
+    "get_receipt": {
+      "kwparams": {},
+      "params": [
+        [
+          "service_id",
+          "string"
+        ],
+        [
+          "utc_day",
+          "string"
+        ],
+        [
+          "attempt",
+          "int"
+        ]
+      ],
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_service": {
+      "kwparams": {},
+      "params": [
+        [
+          "service_id",
+          "string"
+        ]
+      ],
+      "readonly": true,
+      "ret": "string"
+    },
+    "latest_attempt": {
+      "kwparams": {},
+      "params": [
+        [
+          "service_id",
+          "string"
+        ],
+        [
+          "utc_day",
+          "string"
+        ]
+      ],
+      "readonly": true,
+      "ret": "int"
+    },
+    "observe": {
+      "kwparams": {},
+      "params": [
+        [
+          "service_id",
+          "string"
+        ],
+        [
+          "utc_day",
+          "string"
+        ]
+      ],
+      "payable": false,
+      "readonly": false,
+      "ret": "any"
+    },
+    "register": {
+      "kwparams": {},
+      "params": [
+        [
+          "service_id",
+          "string"
+        ],
+        [
+          "description",
+          "string"
+        ],
+        [
+          "sources_json",
+          "string"
+        ],
+        [
+          "threshold_minutes",
+          "int"
+        ]
+      ],
+      "payable": false,
+      "readonly": false,
+      "ret": "any"
+    }
+  }
+}
